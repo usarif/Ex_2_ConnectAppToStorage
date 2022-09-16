@@ -7,6 +7,8 @@
 7. upgrade pip
 7. install the requirements using the requirements.txt
 8. run the application locally
+9. use VS Code to create a web app and publish the code. it worked as is when i did it today!
+    https://docs.microsoft.com/en-us/azure/app-service/quickstart-python?tabs=flask%2Cwindows%2Cvscode-aztools%2Cvscode-deploy%2Cdeploy-instructions-azportal%2Cterminal-bash%2Cdeploy-instructions-zip-azcli
 
 
 links: 
