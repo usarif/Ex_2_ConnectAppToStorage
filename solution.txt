@@ -1,0 +1,16 @@
+1. setup blob storage account (review ARM template)
+2. setup Azure SQL DB (review ARM template)
+3. create table structure in SQL DB (review SQL script)
+4. add necessary environment variables for blob storage and SQL DB to config.py
+5. add code in model.py using the BlobServiceClient class to upload/delete blobs using python sdk
+6. setup a virtual environment, activate it, and select it as the interpreter in VS code
+7. upgrade pip
+7. install the requirements using the requirements.txt
+8. run the application locally
+
+
+links: 
+-------
+https://docs.microsoft.com/en-us/python/api/azure-storage-blob/azure.storage.blob.blobserviceclient?view=azure-python
+
+https://docs.microsoft.com/en-us/python/api/azure-storage-blob/azure.storage.blob.containerclient?view=azure-python#azure-storage-blob-containerclient-upload-blob
